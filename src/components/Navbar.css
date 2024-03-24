@@ -1,0 +1,32 @@
+.Navbar{
+    display: flex !important;
+    text-decoration: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 14vw 1vw 14vw;
+    list-style: none;
+    margin: 0px;
+}
+
+.nestedList{
+    display: flex !important;
+    text-decoration: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.listItem{
+    padding: 0rem 1.5rem;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+}
+
+.purpbtn{
+    background-color: #5D5FEF;
+    color: white;
+    padding: 1rem 2.5rem;
+    border-radius: 0.8rem;
+}
