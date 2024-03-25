@@ -74,7 +74,7 @@ function home() {
         <section>
             <div className='casediv'>
                 <h1>Case Studies</h1>
-                <img src='./images/project.png' style={{width:"100%"}} />
+                <img src='./images/project.png' style={{width:"100%", cursor:"pointer"}} />
                 <button className='purpbtn'>View All &nbsp;<BsArrowRight style={{fontSize:"24px", position:'relative', top:'4px'}} /></button>
             </div>
             
