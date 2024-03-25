@@ -34,7 +34,7 @@
 
 .heroleft>.row:nth-child(4){
     background-color: white;
-    padding: 1.5vw 2vw;
+    padding: 1.2vw 1.2vw;
     border-radius: 30px;
     justify-content: space-between;
 }
@@ -64,7 +64,7 @@
     align-items: center;
 }
 .heroleft>.row>div:nth-child(2)>button{
-    padding: 1.5vw 5vw;
+    padding: 1.2vw 4vw;
     border-radius: 15px;
     border: none;
     background-color: #1B1C31;

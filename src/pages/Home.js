@@ -30,7 +30,7 @@ function home() {
                     <img src='./images/heroimg.png' style={{width:"100%"}}/>
                 </div>
             </div>
-            <img src='./images/companies.png' style={{width:'100%'}}/>
+            <img src='./images/Companies.png' style={{width:'100%'}}/>
         </section>
         <section>
             <div className='button-overlay'>
