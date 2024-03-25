@@ -45,7 +45,7 @@ function home() {
                 <div className='absdiv'>
                     <div className='row dc-container' >
                         <div className='darkcard'>
-                            <img src="./images/vector.png" style={{marginTop:"10px", marginBottom:"5px"}}/>
+                            <img src="./images/Vector.png" style={{marginTop:"10px", marginBottom:"5px"}}/>
                             <h2>Lorem ipsum</h2>
                             <p style={{color:"#9794A6"}}>Letter of on become he tended active enable to. Vicinity relation sensible sociable surprise screened no up as.</p>
                             <p style={{color:"#01966B", fontSize:"18px"}}>Read More <LiaLongArrowAltRightSolid style={{position:'relative', top:"3px"}} /></p>
@@ -74,7 +74,7 @@ function home() {
         <section>
             <div className='casediv'>
                 <h1>Case Studies</h1>
-                <img src='./images/Project.png' style={{width:"100%"}} />
+                <img src='./images/project.png' style={{width:"100%"}} />
                 <button className='purpbtn'>View All &nbsp;<BsArrowRight style={{fontSize:"24px", position:'relative', top:'4px'}} /></button>
             </div>
             
