@@ -247,7 +247,7 @@ function Home() {
             <div className='casediv'>
                 <h1>Case Studies</h1>
                 <img src='./images/project.png' style={{width:"100%", cursor:"pointer"}} />
-                <button className='purpbtn'>View All &nbsp;<BsArrowRight style={{fontSize:"24px", position:'relative', top:'4px'}} /></button>
+                {/* <button className='purpbtn'>View All &nbsp;<BsArrowRight style={{fontSize:"24px", position:'relative', top:'4px'}} /></button> */}
             </div>
             
         </section>
@@ -258,7 +258,7 @@ function Home() {
                 <img src='./images/rightbtn.png' className='rbtn'/>
             </div>
         </section>
-        <section>
+        {/* <section>
             <div style={{padding:"1vw 7vw",marginTop:"10%"}}>
                 <div className='button-overlay'>
                     <img src='./images/Blogs.png' style={{width:'100%'}}/>
@@ -266,7 +266,7 @@ function Home() {
                 </div>
             </div>
        
-        </section>
+        </section> */}
         <section style={{overflow:'hidden'}}>
         <div className='button-overlay' style={{marginTop:"10%", marginBottom:'0px'}}>
             <img src='./images/r179.png' style={{width:'100%'}}/>
