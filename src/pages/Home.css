@@ -178,17 +178,62 @@ a{
     position: relative;
     display: inline-block;
 }
-.button-overlay>.btn1 {
+
+.sustain{
+    width: 30%;
     position: absolute;
-    top: 45%;
-    left: 14%;
+    top: 25%;
+    left: 23%;
     transform: translate(-50%, -50%);
+    font-family: "Manrope", sans-serif;
+}
+
+.sustain>p:first-child{
+    color: #5D5FEF;
+    margin: 0px;
+}
+
+.sustain>h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: clamp(0.6rem, 0.2rem + 1.8783vw, 3rem);
+    font-weight: 700;
+}
+
+.sustain>.btn1 {
+    margin-top: 10px;
     border: none;
     border-radius: 25px;
     padding: 1rem 3rem;
     font-size: 18px;
     cursor: pointer;
 }
+
+.pt1{
+    width: 17%;
+    position: absolute;
+    top: 78%;
+    left: 22.5%;
+    transform: translate(-50%, -50%);
+    font-family: "Manrope", sans-serif;
+}
+.pt2{
+    width: 17%;
+    position: absolute;
+    top: 63%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    font-family: "Manrope", sans-serif;
+}
+.pt3{
+    width: 17%;
+    position: absolute;
+    top: 35%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    font-family: "Manrope", sans-serif;
+}
+
 .button-overlay>.btn1m {
     position: absolute;
     top: 27%;
@@ -200,11 +245,29 @@ a{
     font-size: 14px;
     cursor: pointer;
 }
-.button-overlay>.btn2 {
+
+.handshake{
     position: absolute;
-    top: 24.5%;
+    top: 14.5%;
     left: 51.8%;
     transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-family: "Manrope", sans-serif;
+}
+
+.handshake>h2{
+    font-size:clamp(0.6rem, 0.2rem + 2.0783vw, 3.5rem) ;
+}
+
+.handshake>p{
+    line-height: 30px;
+    padding: 0px 10%;
+    margin-bottom: 30px;
+}
+
+.handshake>.btn2 {
+    
     border: none;
     border-radius: 25px;
     padding: 1rem 3rem;
@@ -229,10 +292,27 @@ a{
 
 .absdiv{
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
+}
+
+.sec3cardhead{
+    color: white;
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+}
+
+.sec3cardhead>h2{
+    font-size:clamp(0.6rem, 0.2rem + 2.0783vw, 3.5rem) ;
+}
+
+.sec3cardhead>p{
+    padding: 0% 25%;
+    color: #BDBDBD;
+    font-size: clamp(0.8rem, 1.7vw, 1.2rem);
+    margin-bottom: 5%;
 }
 
 .absdivm{
@@ -271,6 +351,86 @@ a{
     padding-bottom: 2.4rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-bottom: 12vw;
+}
+
+.sec4text{
+    color: white;
+    font-family: "Manrope", sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.sec4text>div:first-child{
+    width: 40%;
+}
+
+.sec4text>div>h2{
+    color: #FFDC60;
+    font-size:clamp(0.6rem,  2.0783vw, 3.5rem) ;
+}
+
+
+.sec4text>.row{
+    margin-top: 20px;
+}
+
+.sec4text>.row>p{
+    margin-left: 10px;
+    font-size:clamp(0.8rem, 1.7vw, 1.2rem) ;
+    
+}
+
+.sec5head{
+    font-family: "Manrope", sans-serif;
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.sec5head>p{
+    color: #3734A9;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.sec5head>h2{
+    margin-top: 10px;
+    font-size:clamp(0.6rem, 0.2rem + 2.0783vw, 3.5rem) ;
+    font-weight: 800;
+}
+
+.button-overlay>h4{
+    font-family: "Manrope", sans-serif;
+    position: absolute;
+    top: 43%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    text-align: justify;
+    color: white;
+    font-size:clamp(0.6rem, 1.7783vw, 2.5rem) ;
+    width: 40%;
+}
+
+.author{
+    font-family: "Manrope", sans-serif;
+    position: absolute;
+    top: 66%;
+    left: 56.5%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.author>h5{
+    font-size:clamp(0.8rem, 1.7vw, 1.2rem) ;
+    margin-bottom: 0px;
+}
+
+.author>p{
+    color: #858585;
 }
 
 .yellow{

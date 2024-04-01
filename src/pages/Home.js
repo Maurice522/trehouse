@@ -203,45 +203,92 @@ function Home() {
             </div>
            
         </section>
-        <img src='./images/Companies1.png' style={{width:'100%', backgroundColor:"white", marginBottom:"0px"}}/>
+        <img src='./images/Companies4.png' style={{width:'100%', backgroundColor:"white", marginBottom:"0px"}}/>
         <section id='ourmodel'>
             <div className='button-overlay'>
-                <img src='./images/section2noblur.png' style={{width:'100%'}}/>
-                <button className='purpbtn btn1'>Get Started</button>
+                <img src='./images/section2notxt.png' style={{width:'100%'}}/>
+
+                <div className='sustain'>
+                    <p>GROWTH</p>
+                    <h2>Sustainable Model</h2>
+                    <p style={{textAlign:'justify'}}>We ensure a sustainable model built on long-term relationships. Backed by extensive expertise in organizational operations, sales, and development, TRĒhouse is your strategic partner in driving scalable growth. Join us in shaping the future of your enterprise.</p>
+                    <button className='purpbtn btn1'>Get Started</button>
+                </div>
+
+                <div className='pt1'>
+                    <h2>Discovery Session</h2>
+                    <p style={{textAlign:'justify'}}>We engage in thorough discovery, either over a call or in person, to understand our potential partners' businesses.</p>
+                </div>
+                <div className='pt2'>
+                    <h2>Strategic Identification</h2>
+                    <p style={{textAlign:'justify'}}>We pinpoint growth opportunities and tailor a partnership around the specifics.</p>
+                </div>
+                <div className='pt3'>
+                    <h2>Action-Oriented Partnership</h2>
+                    <p style={{textAlign:'justify'}}>We work closely with partners, ensuring our success is directly tied to theirs through our shared revenue model.</p>
+                </div>
+
             </div>
         </section>
         <section id='Hww'>
             <div className='button-overlay' >
-                <img src='./images/section32.png' style={{width:'100%'}} />
-                <button className='purpbtn orange btn2'>Get Started</button>
+                <img src='./images/section3notxt.png' style={{width:'100%'}} />
+                <div className='handshake'>
+                    <h2>Push your company to the next level.</h2>
+                    <p>Embark on a path to success with TRĒhouse. Our handshake signifies a commitment to your growth. Leave the risk to us while you enjoy the rewards. Partner with confidence and let's elevate your business together.</p>
+                    <button className='purpbtn orange btn2'>Get Started</button>
+                </div>
                 <div className='absdiv ' >
+                    <div className='sec3cardhead'>
+                        <h2>We help your business grow faster.</h2>
+                        <p>Time is precious in the pursuit of growth. Schedule a consultation with our expert advisors to explore new avenues for your business. Let's make progress happen together.</p>
+                    </div>
                     <div className='row dc-container'  >
                         <div className='darkcard'>
                             <img src="./images/Vector.png" style={{marginTop:"10px", marginBottom:"5px"}}/>
-                            <h2>Lorem ipsum</h2>
-                            <p style={{color:"#9794A6"}}>Letter of on become he tended active enable to. Vicinity relation sensible sociable surprise screened no up as.</p>
-                            <p style={{color:"#01966B", fontSize:"18px"}}>Read More <LiaLongArrowAltRightSolid style={{position:'relative', top:"3px"}} /></p>
+                            <h2>Expertise-Driven Solutions</h2>
+                            <p style={{color:"#9794A6"}}>Crafting tailored strategies rooted in deep industry insights for your success.</p>
+                            {/* <p style={{color:"#01966B", fontSize:"18px"}}>Read More <LiaLongArrowAltRightSolid style={{position:'relative', top:"3px"}} /></p> */}
                         </div>
                         <div className='darkcard'>
                             <img src="./images/flower.png" style={{marginTop:"10px", marginBottom:"5px"}}/>
-                            <h2>Lorem ipsum</h2>
-                            <p style={{color:"#9794A6"}}>Letter of on become he tended active enable to. Vicinity relation sensible sociable surprise screened no up as.</p>
-                            <p style={{color:"#01966B", fontSize:"18px"}}>Read More <LiaLongArrowAltRightSolid style={{position:'relative', top:"3px"}} /></p>
+                            <h2>Shared Success</h2>
+                            <p style={{color:"#9794A6", marginBottom:"30px"}}>Partnering for mutual growth, where your success is our triumph.</p>
+                            {/* <p style={{color:"#01966B", fontSize:"18px"}}>Read More <LiaLongArrowAltRightSolid style={{position:'relative', top:"3px"}} /></p> */}
                         </div>
                         <div className='darkcard'>
                             <img src="./images/sun.png" style={{marginTop:"10px", marginBottom:"5px"}}/>
-                            <h2>Lorem ipsum</h2>
-                            <p style={{color:"#9794A6"}}>Letter of on become he tended active enable to. Vicinity relation sensible sociable surprise screened no up as.</p>
-                            <p style={{color:"#01966B", fontSize:"18px"}}>Read More <LiaLongArrowAltRightSolid style={{position:'relative', top:"3px"}} /></p>
+                            <h2>Innovative Collaboration</h2>
+                            <p style={{color:"#9794A6"}}>Unleashing creativity through dynamic partnerships for transformative outcomes.</p>
+                            {/* <p style={{color:"#01966B", fontSize:"18px"}}>Read More <LiaLongArrowAltRightSolid style={{position:'relative', top:"3px"}} /></p> */}
                         </div>
                     </div>
-                    <button className='yellow btn3'>More About Platform</button>
+                    <button className='yellow btn3' > <a className='ab' href='#testimonials'>Hear from Our Clients</a>  </button>
                 </div>
             </div>
             
         </section>
-        <section>
-            <img src='./images/section42.png' style={{width:"100%"}}/>
+        <section style={{overflow:'hidden'}}>
+            <div className='button-overlay' style={{padding:"5% 10%"}}>
+                <img src='./images/sec4notxt.png' style={{width:"80%"}}/>
+                <div className='row sec4text'>
+                    <div>
+                        <h2>Driving Growth Through Innovative Solutions</h2>
+                    </div>
+                    <div className='row' style={{marginLeft:"20px"}}>
+                        <p> <img src='./images/s41.png' /></p>
+                        <p>Innovative Collaboration</p>
+                    </div>
+                    <div className='row'>
+                        <p> <img src='./images/s42.png' /></p>
+                        <p>Shared Success</p>
+                    </div>
+                    <div className='row'>
+                        <p> <img src='./images/s43.png' /></p>
+                        <p>Expertise-Driven Solutions</p>
+                    </div>
+                </div>
+            </div>
         </section>
         {/* <section>
             <div className='casediv'>
@@ -253,9 +300,18 @@ function Home() {
         </section> */}
         <section id='testimonials'>
         <div className='button-overlay' style={{marginTop:"2%"}}>
-                <img src='./images/section5.png' style={{width:'100%'}}/>
+                <img src='./images/section5notxt.png' style={{width:'100%'}}/>
                 <img src='./images/leftbtn.png' className='lbtn'/>
                 <img src='./images/rightbtn.png' className='rbtn'/>
+                <div className='sec5head'>
+                    <p>TESTIMONIALS</p>
+                    <h2>Check what our clients are saying</h2>
+                </div>
+                <h4>Is be upon sang fond must shew. Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now.</h4>
+                <div className='author'>
+                    <h5>AR Shakir</h5>
+                    <p>CEO GetNextDesign</p>
+                </div>
             </div>
         </section>
         {/* <section>
