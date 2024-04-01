@@ -1,3 +1,7 @@
+html{scroll-behavior:smooth}
+.ab{
+    color: black;
+}
 .Navbar{
     display: flex !important;
     text-decoration: none;

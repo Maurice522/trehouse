@@ -193,29 +193,29 @@ function Home() {
                         </div>
                     </div>
                     <div className='row ticks' >
-                        <p><img src='./images/tick.png' style={{width:"clamp(0.8rem, 2.2vw, 1.4rem)"}}/> &nbsp; Free Register</p>
-                        <p><img src='./images/tick.png' style={{width:"clamp(0.8rem, 2.2vw, 1.4rem)"}}/> &nbsp; Great Service</p>
+                        <p><img src='./images/tick.png' style={{width:"clamp(0.5rem, 1.2vw, 1rem)"}}/> &nbsp; Free Register</p>
+                        <p><img src='./images/tick.png' style={{width:"clamp(0.5rem, 1.2vw, 1rem)"}}/> &nbsp; Great Service</p>
                     </div>
                 </div>
-                <div className='heroright' style={{width:"110%"}}>
-                    <img src='./images/heroimg.png' style={{width:"100%"}}/>
+                <div className='heroright' style={{width:"100%", textAlign:"right"}}>
+                    <img src='./images/heroimg.png' style={{width:"80%"}}/>
                 </div>
             </div>
            
         </section>
-        <section>
         <img src='./images/Companies1.png' style={{width:'100%', backgroundColor:"white", marginBottom:"0px"}}/>
+        <section id='ourmodel'>
             <div className='button-overlay'>
-                <img src='./images/section2nobtn2.png' style={{width:'100%'}}/>
+                <img src='./images/section2noblur.png' style={{width:'100%'}}/>
                 <button className='purpbtn btn1'>Get Started</button>
             </div>
         </section>
-        <section>
-            <div className='button-overlay'>
+        <section id='Hww'>
+            <div className='button-overlay' >
                 <img src='./images/section32.png' style={{width:'100%'}} />
                 <button className='purpbtn orange btn2'>Get Started</button>
-                <div className='absdiv'>
-                    <div className='row dc-container' >
+                <div className='absdiv ' >
+                    <div className='row dc-container'  >
                         <div className='darkcard'>
                             <img src="./images/Vector.png" style={{marginTop:"10px", marginBottom:"5px"}}/>
                             <h2>Lorem ipsum</h2>
@@ -243,15 +243,15 @@ function Home() {
         <section>
             <img src='./images/section42.png' style={{width:"100%"}}/>
         </section>
-        <section>
+        {/* <section>
             <div className='casediv'>
                 <h1>Case Studies</h1>
                 <img src='./images/project.png' style={{width:"100%", cursor:"pointer"}} />
-                {/* <button className='purpbtn'>View All &nbsp;<BsArrowRight style={{fontSize:"24px", position:'relative', top:'4px'}} /></button> */}
+                <button className='purpbtn'>View All &nbsp;<BsArrowRight style={{fontSize:"24px", position:'relative', top:'4px'}} /></button>
             </div>
             
-        </section>
-        <section>
+        </section> */}
+        <section id='testimonials'>
         <div className='button-overlay' style={{marginTop:"2%"}}>
                 <img src='./images/section5.png' style={{width:'100%'}}/>
                 <img src='./images/leftbtn.png' className='lbtn'/>
@@ -267,7 +267,7 @@ function Home() {
             </div>
        
         </section> */}
-        <section style={{overflow:'hidden'}}>
+        <section id='contact' style={{overflow:'hidden'}}>
         <div className='button-overlay' style={{marginTop:"10%", marginBottom:'0px'}}>
             <img src='./images/r179.png' style={{width:'100%'}}/>
             <div className='row absdiv2' style={{paddingLeft:"7vw", color:"white", paddingRight:"2vw"}}>
@@ -294,22 +294,14 @@ function Home() {
             <ul className="nestedList2">
                 <li className="flistItem">
                     <p>About</p>
-                    <p>Company</p>
-                    <p>Teams</p>
-                    <p>Profile</p>
-                    <p>Careers</p>
+                    <p><a className='aw' href='#ourmodel'>Our Model</a></p> 
+                    <p><a className='aw' href='#Hww'>How we work</a></p>
+                    <p><a className='aw' href='#testimonials'>Testimonials</a></p>
+                    <p><a className='aw' href='#contact'>Contact Us</a></p>
                 </li>
+                
                 <li className="flistItem">
-                    <p>Resources</p>
-                    <p>Contact</p>
-                    <p>Application</p>
-                    <p>FQA Feature</p>
-                </li>
-                <li className="flistItem">
-                    <p>Legals</p>
-                    <p>Copyright Privacy</p>
-                    <p>Policy Disclamer</p>
-                    <p>Terms</p>
+                    <p>Socials</p>
                     <img src='./images/icons.png' style={{cursor:'pointer'}}/>
                 </li>
                 

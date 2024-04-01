@@ -55,7 +55,7 @@ const Navbar = () => {
         </li>
         
         <li className="listItem purpbtnm" style={{marginLeft:"2.4vw"}}>
-                    Start Free
+                    Contact Us
         </li>
     </ul>
     {openBar&&
@@ -64,17 +64,15 @@ const Navbar = () => {
                     <p>Home</p>
                 </li>
                 <li className="listItem">
-                    <p>About Us</p>
+                    <p>Our Model</p>
                 </li>
                 <li className="listItem">
-                    <p>Services <FaAngleDown style={{position:"relative", top:"2px", left:"4px"}}/></p>
+                    <p>How we work</p>
                 </li>
                 <li className="listItem">
-                    <p>Case Studies</p>
+                    <p>Testimonials</p>
                 </li>
-                <li className="listItem">
-                    <p>Blog</p>
-                </li>
+                
             </ul>
     }
     </>:<>
@@ -88,26 +86,21 @@ const Navbar = () => {
                     <p>Home</p>
                 </li>
                 <li className="listItem">
-                    <p>About Us</p>
+                    <p><a className='ab' href='#ourmodel'>Our Model</a></p>
                 </li>
                 <li className="listItem">
-                    <p>Services <FaAngleDown style={{position:"relative", top:"2px", left:"4px"}}/></p>
+                    <p><a className='ab' href='#Hww'>How we work</a></p>
                 </li>
                 <li className="listItem">
-                    <p>Case Studies</p>
-                </li>
-                <li className="listItem">
-                    <p>Blog</p>
+                    <p><a className='ab' href='#testimonials'>Testimonials</a></p>
                 </li>
             </ul>
         </li>
         <li>
             <ul className="nestedList">
-                <li className="listItem">
-                    Sign In
-                </li>
+                
                 <li className="listItem purpbtn" style={{marginLeft:"2.4vw"}}>
-                    Start Free
+                <a className='aw' href='#contact'>Contact Us</a>
                 </li>
             </ul>
         </li>
