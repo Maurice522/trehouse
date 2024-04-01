@@ -97,7 +97,7 @@ function Home() {
         <section>
             <img src='./images/3point.png' style={{width:"70%", padding:"15%"}}/>
         </section>
-        <section>
+        {/* <section>
             <div className='casedivm'>
                 <h1>Case Studies {windowDimension}</h1>
                 {project?
@@ -116,7 +116,7 @@ function Home() {
                 <img src='./images/prm.png' />
                 </div>
             </div>
-        </section>
+        </section> */}
         <section>
         <div className='button-overlay' style={{marginTop:"10%"}}>
                 <img src='./images/testim.png' style={{width:'100%'}}/>
