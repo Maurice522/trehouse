@@ -57,7 +57,7 @@ function Home() {
                     <img src='./images/heroimgm.png' style={{width:"100%"}}/>
                 </div>
         </section>
-        <img src='./images/Companiesm.png' style={{width:'100%', backgroundColor:"white", marginBottom:"0px"}}/>
+        {/* <img src='./images/Companiesm.png' style={{width:'100%', backgroundColor:"white", marginBottom:"0px"}}/> */}
         <section id='ourmodel'>
             <div className='button-overlay'>
                 <img src='./images/sec2mnotxt.png' style={{width:'100%', paddingTop:"32%", paddingBottom:"20%"}}/>
@@ -65,7 +65,7 @@ function Home() {
                     <p>GROWTH</p>
                     <h2>Sustainable Model</h2>
                     <p style={{textAlign:'justify'}}>We ensure a sustainable model built on long-term relationships. Backed by extensive expertise in organizational operations, sales, and development, TRĒhouse is your strategic partner in driving scalable growth. Join us in shaping the future of your enterprise.</p>
-                    <button className='purpbtn btn1m'>Get Started</button>
+                    <button className='purpbtn btn1m'><a className='aw' href='https://calendly.com/trehouse-bd/30min?month=2024-04'>Book a Call</a></button>
                 </div>
 
                 <div className='pt1m'>
@@ -88,7 +88,7 @@ function Home() {
                 <div className='handshakem'>
                     <h2>Push your company to the next level.</h2>
                     <p>Embark on a path to success with TRĒhouse. Our handshake signifies a commitment to your growth. Leave the risk to us while you enjoy the rewards. Partner with confidence and let's elevate your business together.</p>
-                    <button className='purpbtn orange btn2m'>Get Started</button>
+                    <button className='purpbtn orange btn2m'><a className='aw' href='https://calendly.com/trehouse-bd/30min?month=2024-04'>Book a Call</a></button>
                 </div>
                 <div id='Hww' className='absdivm'>
                 <div className='sec3cardheadm'>
@@ -115,7 +115,7 @@ function Home() {
                             {/* <p style={{color:"#01966B", fontSize:"18px"}}>Read More <LiaLongArrowAltRightSolid style={{position:'relative', top:"3px"}} /></p> */}
                         </div>
                     </div>
-                    <button className='yellow btn3m'><a className='ab' href='#testimonials'>Hear from Our Clients</a></button>
+                    <button className='yellow btn3m'><a className='ab' href='https://calendly.com/trehouse-bd/30min?month=2024-04'>Book a Call</a></button>
                 </div>
             </div>
             
@@ -165,11 +165,11 @@ function Home() {
                 </div>
             </div>
         </section> */}
-        <section id='testimonials'>
+        {/* <section id='testimonials'>
         <div className='button-overlay' style={{marginTop:"10%", paddingTop:"20%"}}>
                 <img src='./images/testimnotxt.png' style={{width:'100%'}}/>
-                {/* <img src='./images/leftbtn.png' className='lbtn'/>
-                <img src='./images/rightbtn.png' className='rbtn'/> */}
+                <img src='./images/leftbtn.png' className='lbtn'/>
+                <img src='./images/rightbtn.png' className='rbtn'/>
 
                 <div className='sec5headm'> 
                     <p>TESTIMONIALS</p>
@@ -182,20 +182,20 @@ function Home() {
                 </div>
 
             </div>
-        </section>
+        </section> */}
         <section id='contact' style={{overflow:'hidden'}}>
         <div className='button-overlay' style={{marginTop:"10%", marginBottom:'0px'}}>
-            <img src='./images/recm.png' style={{width:'100%'}}/>
+            <img src='./images/grayrecm.png' style={{width:'100%'}}/>
             <div className='absdiv2' style={{paddingLeft:"10vw", color:"white", paddingRight:"5vw"}}>
                 <div style={{padding: "3vw"}}>
-                    <p style={{margin:"0px", fontSize:"10px", marginTop:"10px", marginLeft:"5%"}}>WHY CHOOSE US</p>
-                    <h2 style={{fontSize:"clamp(0.8rem, 2vw, 1.4rem);", margin:"0px", marginLeft:"5%", marginRight:"5%"}}>Lorem ipsu mlorem ip Lorem ipsum lroe</h2>
-                    <p style={{fontSize:"clamp(0.8rem, 2vw, 1.3rem);", marginLeft:"5%", marginRight:"10%"}}>Mean if he they been no hold mr. Is at much do made. Latter person am secure of estate genius at.</p>
+                    <p style={{margin:"0px", fontSize:"10px", marginTop:"10px", marginLeft:"5%"}}>Schedule a Strategy Session Today</p>
+                    <h2 style={{fontSize:"24px", margin:"0px", marginLeft:"5%", marginRight:"5%"}}>Unlock Your Potential with Trēhouse</h2>
+                    <p style={{fontSize:"14px", marginLeft:"5%", marginRight:"10%"}}>Discover how our expertise-driven solutions can elevate your business. Book a call now to explore innovative collaboration opportunities and pave the way for shared success. Let's shape the future of your enterprise together.</p>
                 </div>
                 <div className='formm'>
-                    <input className='forminpm' placeholder='Email Address'/>
-                    <input className='forminpm' placeholder='Password'/>
-                    <button className='yellow btn4m' style={{fontWeight:"400", margin:"15px"}}>GET STARTED</button>
+                    {/* <input className='forminpm' placeholder='Email Address'/>
+                    <input className='forminpm' placeholder='Password'/> */}
+                    <button className='yellow btn4m' style={{fontWeight:"700", margin:"15px"}}><a className='ab' href='https://calendly.com/trehouse-bd/30min?month=2024-04'>Book a Call</a></button>
                 </div>
             </div>    
         </div>
@@ -212,7 +212,7 @@ function Home() {
                     <p>About</p>
                     <p><a className='aw' href='#ourmodel'>Our Model</a></p> 
                     <p><a className='aw' href='#Hww'>How we work</a></p>
-                    <p><a className='aw' href='#testimonials'>Testimonials</a></p>
+                    {/* <p><a className='aw' href='#testimonials'>Testimonials</a></p> */}
                     <p><a className='aw' href='#contact'>Contact Us</a></p>
                 </li>
                 
@@ -255,7 +255,7 @@ function Home() {
             </div>
            
         </section>
-        <img src='./images/Companies4.png' style={{width:'100%', backgroundColor:"white", marginBottom:"0px"}}/>
+        {/* <img src='./images/Companies4.png' style={{width:'100%', backgroundColor:"white", marginBottom:"0px"}}/> */}
         <section id='ourmodel'>
             <div className='button-overlay'>
                 <img src='./images/section2notxt.png' style={{width:'100%'}}/>
@@ -264,7 +264,7 @@ function Home() {
                     <p>GROWTH</p>
                     <h2>Sustainable Model</h2>
                     <p style={{textAlign:'justify'}}>We ensure a sustainable model built on long-term relationships. Backed by extensive expertise in organizational operations, sales, and development, TRĒhouse is your strategic partner in driving scalable growth. Join us in shaping the future of your enterprise.</p>
-                    <button className='purpbtn btn1'>Get Started</button>
+                    <button className='purpbtn btn1'><a className='aw' href='https://calendly.com/trehouse-bd/30min?month=2024-04'>Book a Call</a></button>
                 </div>
 
                 <div className='pt1'>
@@ -288,7 +288,7 @@ function Home() {
                 <div className='handshake'>
                     <h2>Push your company to the next level.</h2>
                     <p>Embark on a path to success with TRĒhouse. Our handshake signifies a commitment to your growth. Leave the risk to us while you enjoy the rewards. Partner with confidence and let's elevate your business together.</p>
-                    <button className='purpbtn orange btn2'>Get Started</button>
+                    <button className='purpbtn orange btn2'><a className='aw' href='https://calendly.com/trehouse-bd/30min?month=2024-04'>Book a Call</a></button>
                 </div>
                 <div className='absdiv ' >
                     <div className='sec3cardhead'>
@@ -315,7 +315,7 @@ function Home() {
                             {/* <p style={{color:"#01966B", fontSize:"18px"}}>Read More <LiaLongArrowAltRightSolid style={{position:'relative', top:"3px"}} /></p> */}
                         </div>
                     </div>
-                    <button className='yellow btn3' > <a className='ab' href='#testimonials'>Hear from Our Clients</a>  </button>
+                    <button className='yellow btn3' > <a className='ab' href='https://calendly.com/trehouse-bd/30min?month=2024-04'>Book a Call</a>  </button>
                 </div>
             </div>
             
@@ -350,7 +350,7 @@ function Home() {
             </div>
             
         </section> */}
-        <section id='testimonials'>
+        {/* <section id='testimonials'>
         <div className='button-overlay' style={{marginTop:"2%"}}>
                 <img src='./images/section5notxt.png' style={{width:'100%'}}/>
                 <img src='./images/leftbtn.png' className='lbtn'/>
@@ -365,7 +365,7 @@ function Home() {
                     <p>CEO GetNextDesign</p>
                 </div>
             </div>
-        </section>
+        </section> */}
         {/* <section>
             <div style={{padding:"1vw 7vw",marginTop:"10%"}}>
                 <div className='button-overlay'>
@@ -376,18 +376,19 @@ function Home() {
        
         </section> */}
         <section id='contact' style={{overflow:'hidden'}}>
-        <div className='button-overlay' style={{marginTop:"10%", marginBottom:'0px'}}>
-            <img src='./images/r179.png' style={{width:'100%'}}/>
+        <div className='button-overlay' style={{marginTop:"4%", marginBottom:'0px'}}>
+            {/* <img src='./images/r179.png' style={{width:'100%'}}/> */}
+            <img src='./images/grayrec.png' style={{width:'100%'}}/>
             <div className='row absdiv2' style={{paddingLeft:"7vw", color:"white", paddingRight:"2vw"}}>
-                <div style={{padding: "3vw"}}>
-                    <p style={{margin:"0px"}}>WHY CHOOSE US</p>
-                    <h2 style={{fontSize:"60px", margin:"0px"}}>Lorem ipsu mlorem ip Lorem ipsum lroe</h2>
-                    <p style={{fontSize:"25px"}}>Mean if he they been no hold mr. Is at much do made. Latter person am secure of estate genius at.</p>
+                <div style={{padding: "3vw", width:'50%'}}>
+                    <p style={{margin:"0px"}}>Schedule a Strategy Session Today</p>
+                    <h2 style={{fontSize:"43px", margin:"0px"}}>Unlock Your Potential with Trēhouse</h2>
+                    <p style={{fontSize:"22px"}}>Discover how our expertise-driven solutions can elevate your business. Book a call now to explore innovative collaboration opportunities and pave the way for shared success. Let's shape the future of your enterprise together.</p>
                 </div>
                 <div className='form'>
-                    <input className='forminp' placeholder='Email Address'/>
-                    <input className='forminp' placeholder='Password'/>
-                    <button className='yellow btn4' style={{fontWeight:"400", margin:"15px"}}>GET STARTED</button>
+                    {/* <input className='forminp' placeholder='Email Address'/>
+                    <input className='forminp' placeholder='Password'/> */}
+                    <button className='yellow btn4' style={{fontWeight:"700", margin:"15px"}}><a className='ab' href='https://calendly.com/trehouse-bd/30min?month=2024-04'>Book a Call</a></button>
                 </div>
             </div>    
         </div>
@@ -404,7 +405,7 @@ function Home() {
                     <p>About</p>
                     <p><a className='aw' href='#ourmodel'>Our Model</a></p> 
                     <p><a className='aw' href='#Hww'>How we work</a></p>
-                    <p><a className='aw' href='#testimonials'>Testimonials</a></p>
+                    {/* <p><a className='aw' href='#testimonials'>Testimonials</a></p> */}
                     <p><a className='aw' href='#contact'>Contact Us</a></p>
                 </li>
                 

@@ -55,7 +55,7 @@ const Navbar = () => {
         </li>
         
         <li className="listItem purpbtnm" style={{marginLeft:"2.4vw"}}>
-                    Contact Us
+        <a className='aw' href='https://calendly.com/trehouse-bd/30min?month=2024-04'>Contact Us</a>
         </li>
     </ul>
     {openBar&&
@@ -70,7 +70,7 @@ const Navbar = () => {
                     <p><a className='ab' href='#Hww'>How we work</a></p>
                 </li>
                 <li className="listItem">
-                    <p><a className='ab' href='#testimonials'>Testimonials</a></p>
+                    {/* <p><a className='ab' href='#testimonials'>Testimonials</a></p> */}
                 </li>
                 
             </ul>
@@ -92,7 +92,7 @@ const Navbar = () => {
                     <p><a className='ab' href='#Hww'>How we work</a></p>
                 </li>
                 <li className="listItem">
-                    <p><a className='ab' href='#testimonials'>Testimonials</a></p>
+                    {/* <p><a className='ab' href='#testimonials'>Testimonials</a></p> */}
                 </li>
             </ul>
         </li>
@@ -100,7 +100,7 @@ const Navbar = () => {
             <ul className="nestedList">
                 
                 <li className="listItem purpbtn" style={{marginLeft:"2.4vw"}}>
-                <a className='aw' href='#contact'>Contact Us</a>
+                <a className='aw' href='https://calendly.com/trehouse-bd/30min?month=2024-04'>Contact Us</a>
                 </li>
             </ul>
         </li>
