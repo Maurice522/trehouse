@@ -234,17 +234,66 @@ a{
     font-family: "Manrope", sans-serif;
 }
 
-.button-overlay>.btn1m {
+.sustainm{
     position: absolute;
-    top: 27%;
-    left: 24%;
+    top: 16%;
+    left: 50%;
     transform: translate(-50%, -50%);
+    font-family: "Manrope", sans-serif;
+    font-size: 12px;
+    width: 70%;
+}
+
+.sustainm>h2{
+    margin-top: 5px;
+}
+
+.sustainm>p:first-child{
+    color: #5D5FEF;
+    margin: 0px;
+}
+
+
+
+.sustainm>.btn1m {
+   
     border: none;
     border-radius: 25px;
     padding: 0.5rem 1.5rem;
     font-size: 14px;
     cursor: pointer;
 }
+
+.pt1m{
+    font-size: 12px;
+    width: 50%;
+    position: absolute;
+    top: 47%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-family: "Manrope", sans-serif;
+}
+
+.pt2m{
+    font-size: 12px;
+    width: 60%;
+    position: absolute;
+    top: 68%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-family: "Manrope", sans-serif;
+}
+
+.pt3m{
+    font-size: 12px;
+    width: 70%;
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    font-family: "Manrope", sans-serif;
+}
+
 
 .handshake{
     position: absolute;
@@ -275,11 +324,19 @@ a{
     cursor: pointer;
 }
 
-.button-overlay>.btn2m {
+.handshakem{
     position: absolute;
-    top: 11.3%;
-    left: 50%;
+    top: 6.5%;
+    left: 51.8%;
     transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-family: "Manrope", sans-serif;
+    font-size: 10px;
+    width: 80%;
+}
+
+.handshakem>.btn2m {
     border: none;
     border-radius: 25px;
     padding:  0.4rem 1rem;
@@ -314,6 +371,18 @@ a{
     font-size: clamp(0.8rem, 1.7vw, 1.2rem);
     margin-bottom: 5%;
 }
+.sec3cardheadm{
+    color: white;
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+.sec3cardheadm>p{
+    padding: 0% 10%;
+    color: #BDBDBD;
+    margin-bottom: 5%;
+}
 
 .absdivm{
     position: absolute;
@@ -329,8 +398,8 @@ a{
 }
 
 .dc-containerm{
-    padding: 0vw 14vw;
-    justify-content: space-between;
+    padding: 0vw 15vw;
+    justify-content: center;
 }
 
 .darkcard{
@@ -347,8 +416,8 @@ a{
     color: white;
     width: 60vw;
     border-radius: 24px;
-    padding: 2.4rem 2.2rem;
-    padding-bottom: 2.4rem;
+    padding: 1.2rem 1.1rem;
+    padding-bottom: 1.2rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-bottom: 12vw;
 }
@@ -360,6 +429,16 @@ a{
     top: 50%;
     left: 40%;
     transform: translate(-50%, -50%);
+}
+
+.sec4textm{
+    color: white;
+    font-family: "Manrope", sans-serif;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
 }
 
 .sec4text>div:first-child{
@@ -391,6 +470,7 @@ a{
     text-align: center;
 }
 
+
 .sec5head>p{
     color: #3734A9;
     font-weight: 600;
@@ -403,6 +483,40 @@ a{
     font-weight: 800;
 }
 
+.sec5headm{
+    font-family: "Manrope", sans-serif;
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 12px;
+}
+
+.sec5headm>p{
+    color: #3734A9;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.sec5headm>h2{
+    margin-top: 10px;
+    width: 100%;
+    font-weight: 800;
+}
+
+.button-overlay>.testitxt{
+    font-family: "Manrope", sans-serif;
+    position: absolute;
+    top: 68%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    text-align: justify;
+    color: white;
+    font-size: 14px;
+    width: 80%;
+}
+
 .button-overlay>h4{
     font-family: "Manrope", sans-serif;
     position: absolute;
@@ -413,6 +527,24 @@ a{
     color: white;
     font-size:clamp(0.6rem, 1.7783vw, 2.5rem) ;
     width: 40%;
+}
+
+.authorm{
+    font-family: "Manrope", sans-serif;
+    position: absolute;
+    top: 81%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 12px;
+}
+
+.authorm>h5{
+    margin-bottom: 0px;
+}
+
+.authorm>p{
+    color: #858585;
 }
 
 .author{
@@ -474,9 +606,9 @@ a{
     top: 50%;
     left: 49.5%;
     transform: translate(-50%, -50%);
-    margin-top: 6%;
-    padding: 1rem 3.7rem;
-    font-size: 16px;
+    margin-top: 2%;
+    padding: 0.7rem 1.4rem;
+    font-size: 14px;
     font-weight: 700;
     border-radius: 10px;
     cursor: pointer;
@@ -647,10 +779,10 @@ a{
 }
 
 .flistItemm{
-    padding: 1rem 1.5rem;
+    padding: .5rem .5rem;
     font-family: "Manrope", sans-serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 .flistItemm>p{
@@ -660,6 +792,6 @@ a{
 }
 
 .flistItemm>p:first-child{
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 700;
 }
